@@ -7,6 +7,8 @@ import (
 "path"
 )
 
+//try
+
 func HomeHandler(w http.ResponseWriter, r *http.Request){
 log.Printf(r.URL.Path)
 
